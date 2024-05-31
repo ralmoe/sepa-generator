@@ -1,0 +1,29 @@
+<DrctDbtTxInf>
+                <PmtId>
+                    <EndToEndId>###ENDTOEND###</EndToEndId>
+                </PmtId>
+                <InstdAmt Ccy="EUR">###AMOUNT###</InstdAmt>
+                <DrctDbtTx>
+                    <MndtRltdInf>
+                        <MndtId>###MANDATEID###</MndtId>
+                        <DtOfSgntr>###SEPADATE###</DtOfSgntr>
+                        <AmdmntInd>false</AmdmntInd>
+                    </MndtRltdInf>
+                </DrctDbtTx>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>###DEBITORBIC###</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <Dbtr>
+                    <Nm>###DEBITORNAME###</Nm>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>###DEBITORIBAN###</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <RmtInf>
+                    <Ustrd>###DESCRIPTION###</Ustrd>
+                </RmtInf>
+            </DrctDbtTxInf>

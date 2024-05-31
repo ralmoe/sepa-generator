@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  sepa-generator:
+    image: erseco/alpine-php-webserver
+    ports:
+      - 8999:8080
+    volumes:
+      - ./src:/var/www/html
+    restart: unless-stopped
